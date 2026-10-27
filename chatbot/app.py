@@ -1,8 +1,10 @@
+import traceback
 import uuid
 
 import streamlit as st
 
 from graph import graph
+from memory import clear_context
 
 st.title("Company Financials Chatbot")
 
@@ -11,6 +13,12 @@ if "messages" not in st.session_state:
     st.session_state.session_id = str(uuid.uuid4())
 
 user_id = st.sidebar.text_input("Your name", value="guest")
+
+if st.sidebar.button("New chat"):
+    clear_context(st.session_state.session_id)
+    st.session_state.messages = []
+    st.session_state.session_id = str(uuid.uuid4())
+    st.rerun()
 
 for message in st.session_state.messages:
     st.chat_message(message["role"]).markdown(message["content"])
@@ -23,20 +31,32 @@ if question:
 
     with st.chat_message("assistant"):
         box = st.empty()
+        box.markdown("Thinking...")
         text = ""
         answer = ""
         inputs = {"question": question, "user_id": user_id, "session_id": st.session_state.session_id}
 
-        for mode, chunk in graph.stream(inputs, stream_mode=["messages", "updates"]):
-            if mode == "messages" and chunk[1]["langgraph_node"] == "answer":
-                text += chunk[0].content
-                box.markdown(text)
-            if mode == "updates":
-                for update in chunk.values():
-                    if update and "answer" in update:
-                        answer = update["answer"]
-                    if update and update.get("feedback"):
-                        text = ""
+        try:
+            for mode, chunk in graph.stream(inputs, stream_mode=["messages", "updates"]):
+                if mode == "messages":
+                    message, metadata = chunk
+                    if metadata.get("langgraph_node") == "answer" and message.content:
+                        text += message.content
+                        box.markdown(text)
+
+                elif mode == "updates":
+                    for update in chunk.values():
+                        if not isinstance(update, dict):
+                            continue
+                        if update.get("answer"):
+                            answer = update["answer"]
+                        if update.get("feedback"):
+                            text = ""
+
+            answer = answer or text or "Sorry, I couldn't get an answer. Please try again."
+        except Exception:
+            answer = "Something went wrong while answering."
+            st.error(traceback.format_exc())
 
         box.markdown(answer)
 
