@@ -1,0 +1,902 @@
+[
+  {
+    "expense_id": 1,
+    "company": "  Himalayan Traders ",
+    "month": "7/2026",
+    "expense_type": "Rent",
+    "amount": 137020,
+    "approved_by": "ADMIN",
+    "notes": ""
+  },
+  {
+    "expense_id": 2,
+    "company": "himalayan traders",
+    "month": "2026-07",
+    "expense_type": "Salaries",
+    "amount": 192990,
+    "approved_by": "ADMIN",
+    "notes": ""
+  },
+  {
+    "expense_id": 3,
+    "company": "Himalayan Traders",
+    "month": "2026-07",
+    "expense_type": "Marketing",
+    "amount": 63283,
+    "approved_by": "admin",
+    "notes": null
+  },
+  {
+    "expense_id": 4,
+    "company": "himalayan traders",
+    "month": "7/2026",
+    "expense_type": "Utilities",
+    "amount": 32432,
+    "approved_by": "ADMIN",
+    "notes": ""
+  },
+  {
+    "expense_id": 5,
+    "company": "himalayan traders",
+    "month": "2026-07",
+    "expense_type": "Delivery",
+    "amount": 31521,
+    "approved_by": null,
+    "notes": null
+  },
+  {
+    "expense_id": 6,
+    "company": "Himalayan Traders",
+    "month": "8/2026",
+    "expense_type": "Rent",
+    "amount": "116468",
+    "approved_by": "system",
+    "notes": null
+  },
+  {
+    "expense_id": 7,
+    "company": "  Himalayan Traders ",
+    "month": "2026-08",
+    "expense_type": "Salaries",
+    "amount": 185923,
+    "approved_by": "ADMIN",
+    "notes": "check later"
+  },
+  {
+    "expense_id": 8,
+    "company": "Himalayan Traders",
+    "month": "2026-08",
+    "expense_type": "Marketing",
+    "amount": "Rs 67,556",
+    "approved_by": null,
+    "notes": "n/a"
+  },
+  {
+    "expense_id": 9,
+    "company": "HIMALAYAN TRADERS",
+    "month": "2026-08",
+    "expense_type": "Utilities",
+    "amount": 33312,
+    "approved_by": "system",
+    "notes": "check later"
+  },
+  {
+    "expense_id": 10,
+    "company": "Himalayan Traders",
+    "month": "Aug 2026",
+    "expense_type": "Delivery",
+    "amount": "Rs 36,148",
+    "approved_by": "admin",
+    "notes": null
+  },
+  {
+    "expense_id": 11,
+    "company": "himalayan traders",
+    "month": "2026-09",
+    "expense_type": "Rent",
+    "amount": "Rs 148,075",
+    "approved_by": "admin",
+    "notes": null
+  },
+  {
+    "expense_id": 12,
+    "company": "Himalayan Traders",
+    "month": "2026-09",
+    "expense_type": "Salaries",
+    "amount": "201694",
+    "approved_by": "system",
+    "notes": "N/A"
+  },
+  {
+    "expense_id": 13,
+    "company": "HIMALAYAN TRADERS",
+    "month": "2026-09",
+    "expense_type": "Marketing",
+    "amount": "Rs 77,376",
+    "approved_by": "admin",
+    "notes": "n/a"
+  },
+  {
+    "expense_id": 14,
+    "company": "himalayan traders",
+    "month": "2026-09",
+    "expense_type": "Utilities",
+    "amount": 34243,
+    "approved_by": "system",
+    "notes": "check later"
+  },
+  {
+    "expense_id": 15,
+    "company": "himalayan traders",
+    "month": "2026-09",
+    "expense_type": "Delivery",
+    "amount": 33985,
+    "approved_by": "system",
+    "notes": null
+  },
+  {
+    "expense_id": 16,
+    "company": "HIMALAYAN TRADERS",
+    "month": "2026-10",
+    "expense_type": "Rent",
+    "amount": 136331,
+    "approved_by": "ADMIN",
+    "notes": "N/A"
+  },
+  {
+    "expense_id": 17,
+    "company": "Himalayan Traders",
+    "month": "10/2026",
+    "expense_type": "Salaries",
+    "amount": 169557,
+    "approved_by": "ADMIN",
+    "notes": null
+  },
+  {
+    "expense_id": 18,
+    "company": "HIMALAYAN TRADERS",
+    "month": "Oct 2026",
+    "expense_type": "Marketing",
+    "amount": 67511,
+    "approved_by": "admin",
+    "notes": ""
+  },
+  {
+    "expense_id": 19,
+    "company": "Himalayan Traders",
+    "month": "10/2026",
+    "expense_type": "Utilities",
+    "amount": 37746,
+    "approved_by": "ADMIN",
+    "notes": ""
+  },
+  {
+    "expense_id": 20,
+    "company": "Himalayan Traders",
+    "month": "Oct 2026",
+    "expense_type": "Delivery",
+    "amount": 30338,
+    "approved_by": "ADMIN",
+    "notes": ""
+  },
+  {
+    "expense_id": 21,
+    "company": "EVEREST ELECTRONICS",
+    "month": "2026-07",
+    "expense_type": "Rent",
+    "amount": 131531,
+    "approved_by": "system",
+    "notes": ""
+  },
+  {
+    "expense_id": 22,
+    "company": "  Everest Electronics ",
+    "month": "2026-07",
+    "expense_type": "Salaries",
+    "amount": 195852,
+    "approved_by": null,
+    "notes": "n/a"
+  },
+  {
+    "expense_id": "23",
+    "company": "Everest Electronics",
+    "month": "2026-07",
+    "expense_type": "Marketing",
+    "amount": 83434,
+    "approved_by": "ADMIN",
+    "notes": "check later"
+  },
+  {
+    "expense_id": 24,
+    "company": "Everest Electronics",
+    "month": "2026-07",
+    "expense_type": "Utilities",
+    "amount": 43080,
+    "approved_by": "system",
+    "notes": "check later"
+  },
+  {
+    "expense_id": 25,
+    "company": "everest electronics",
+    "month": "2026-07",
+    "expense_type": "Delivery",
+    "amount": 33418,
+    "approved_by": "admin",
+    "notes": "n/a"
+  },
+  {
+    "expense_id": 26,
+    "company": null,
+    "month": "Aug 2026",
+    "expense_type": "Rent",
+    "amount": 129215,
+    "approved_by": null,
+    "notes": "check later"
+  },
+  {
+    "expense_id": 27,
+    "company": "Everest Electronics",
+    "month": "Aug 2026",
+    "expense_type": "Salaries",
+    "amount": "171017",
+    "approved_by": "admin",
+    "notes": "N/A"
+  },
+  {
+    "expense_id": 28,
+    "company": "Everest Electronics",
+    "month": "2026-08",
+    "expense_type": "Marketing",
+    "amount": 74856,
+    "approved_by": "system",
+    "notes": "check later"
+  },
+  {
+    "expense_id": 29,
+    "company": "  Everest Electronics ",
+    "month": "2026-08",
+    "expense_type": "Utilities",
+    "amount": 37988,
+    "approved_by": "admin",
+    "notes": "check later"
+  },
+  {
+    "expense_id": 30,
+    "company": "  Everest Electronics ",
+    "month": "2026-08",
+    "expense_type": "Delivery",
+    "amount": "Rs 33,729",
+    "approved_by": null,
+    "notes": "N/A"
+  },
+  {
+    "expense_id": 31,
+    "company": "EVEREST ELECTRONICS",
+    "month": "2026-09",
+    "expense_type": null,
+    "amount": 130459,
+    "approved_by": "system",
+    "notes": "check later"
+  },
+  {
+    "expense_id": 32,
+    "company": "everest electronics",
+    "month": "2026-09",
+    "expense_type": "Salaries",
+    "amount": 188158,
+    "approved_by": null,
+    "notes": "check later"
+  },
+  {
+    "expense_id": 33,
+    "company": "EVEREST ELECTRONICS",
+    "month": "2026-09",
+    "expense_type": "Marketing",
+    "amount": 64056,
+    "approved_by": null,
+    "notes": "N/A"
+  },
+  {
+    "expense_id": 34,
+    "company": "Everest Electronics",
+    "month": "9/2026",
+    "expense_type": "Utilities",
+    "amount": "Rs 36,523",
+    "approved_by": null,
+    "notes": ""
+  },
+  {
+    "expense_id": 35,
+    "company": "EVEREST ELECTRONICS",
+    "month": "2026-09",
+    "expense_type": "Delivery",
+    "amount": "39682",
+    "approved_by": "system",
+    "notes": null
+  },
+  {
+    "expense_id": 36,
+    "company": "  Everest Electronics ",
+    "month": "2026-10",
+    "expense_type": "Rent",
+    "amount": 161026,
+    "approved_by": null,
+    "notes": ""
+  },
+  {
+    "expense_id": 37,
+    "company": "EVEREST ELECTRONICS",
+    "month": "2026-10",
+    "expense_type": "Salaries",
+    "amount": 185884,
+    "approved_by": "ADMIN",
+    "notes": "n/a"
+  },
+  {
+    "expense_id": "38",
+    "company": "EVEREST ELECTRONICS",
+    "month": "10/2026",
+    "expense_type": "Marketing",
+    "amount": 79894,
+    "approved_by": "system",
+    "notes": ""
+  },
+  {
+    "expense_id": 39,
+    "company": "Everest Electronics",
+    "month": "2026-10",
+    "expense_type": "Utilities",
+    "amount": "34967",
+    "approved_by": "admin",
+    "notes": null
+  },
+  {
+    "expense_id": 40,
+    "company": "everest electronics",
+    "month": "Oct 2026",
+    "expense_type": "Delivery",
+    "amount": 38300,
+    "approved_by": "system",
+    "notes": "check later"
+  },
+  {
+    "expense_id": 41,
+    "company": "Kathmandu Foods",
+    "month": "2026-07",
+    "expense_type": "Rent",
+    "amount": "Rs 265,236",
+    "approved_by": "admin",
+    "notes": ""
+  },
+  {
+    "expense_id": 42,
+    "company": "  Kathmandu Foods ",
+    "month": "2026-07",
+    "expense_type": "Salaries",
+    "amount": 367675,
+    "approved_by": "system",
+    "notes": null
+  },
+  {
+    "expense_id": 43,
+    "company": "  Kathmandu Foods ",
+    "month": "7/2026",
+    "expense_type": null,
+    "amount": 120501,
+    "approved_by": "ADMIN",
+    "notes": ""
+  },
+  {
+    "expense_id": 44,
+    "company": "  Kathmandu Foods ",
+    "month": "7/2026",
+    "expense_type": "Utilities",
+    "amount": 57345,
+    "approved_by": "system",
+    "notes": "n/a"
+  },
+  {
+    "expense_id": 45,
+    "company": "  Kathmandu Foods ",
+    "month": "2026-07",
+    "expense_type": "Delivery",
+    "amount": "59224",
+    "approved_by": "admin",
+    "notes": "check later"
+  },
+  {
+    "expense_id": 46,
+    "company": null,
+    "month": "2026-08",
+    "expense_type": "Rent",
+    "amount": 229133,
+    "approved_by": "ADMIN",
+    "notes": null
+  },
+  {
+    "expense_id": 47,
+    "company": "Kathmandu Foods",
+    "month": "Aug 2026",
+    "expense_type": "Salaries",
+    "amount": 279197,
+    "approved_by": "admin",
+    "notes": "n/a"
+  },
+  {
+    "expense_id": 48,
+    "company": "  Kathmandu Foods ",
+    "month": "2026-08",
+    "expense_type": "Marketing",
+    "amount": 126553,
+    "approved_by": "system",
+    "notes": "n/a"
+  },
+  {
+    "expense_id": 49,
+    "company": "  Kathmandu Foods ",
+    "month": "Aug 2026",
+    "expense_type": "Utilities",
+    "amount": 60512,
+    "approved_by": "system",
+    "notes": "N/A"
+  },
+  {
+    "expense_id": 50.0,
+    "company": "  Kathmandu Foods ",
+    "month": "2026-08",
+    "expense_type": "Delivery",
+    "amount": 49299,
+    "approved_by": "ADMIN",
+    "notes": "n/a"
+  },
+  {
+    "expense_id": 51.0,
+    "company": "KATHMANDU FOODS",
+    "month": "9/2026",
+    "expense_type": "Rent",
+    "amount": "Rs 212,723",
+    "approved_by": "system",
+    "notes": "check later"
+  },
+  {
+    "expense_id": 52.0,
+    "company": "Kathmandu Foods",
+    "month": "Sep 2026",
+    "expense_type": "Salaries",
+    "amount": "Rs 365,074",
+    "approved_by": null,
+    "notes": ""
+  },
+  {
+    "expense_id": 53,
+    "company": "kathmandu foods",
+    "month": "Sep 2026",
+    "expense_type": "Marketing",
+    "amount": 106742,
+    "approved_by": "admin",
+    "notes": ""
+  },
+  {
+    "expense_id": 54.0,
+    "company": "Kathmandu Foods",
+    "month": "2026-09",
+    "expense_type": "Utilities",
+    "amount": 55879,
+    "approved_by": null,
+    "notes": "N/A"
+  },
+  {
+    "expense_id": 55,
+    "company": "kathmandu foods",
+    "month": "2026-09",
+    "expense_type": "Delivery",
+    "amount": 64093,
+    "approved_by": "ADMIN",
+    "notes": null
+  },
+  {
+    "expense_id": "56",
+    "company": "Kathmandu Foods",
+    "month": "10/2026",
+    "expense_type": "Rent",
+    "amount": "240356",
+    "approved_by": "admin",
+    "notes": null
+  },
+  {
+    "expense_id": 57,
+    "company": "Kathmandu Foods",
+    "month": "2026-10",
+    "expense_type": "Salaries",
+    "amount": 297329,
+    "approved_by": "admin",
+    "notes": "N/A"
+  },
+  {
+    "expense_id": 58,
+    "company": "  Kathmandu Foods ",
+    "month": "Oct 2026",
+    "expense_type": "Marketing",
+    "amount": 128284,
+    "approved_by": null,
+    "notes": "check later"
+  },
+  {
+    "expense_id": 59.0,
+    "company": "kathmandu foods",
+    "month": "2026-10",
+    "expense_type": null,
+    "amount": 58844,
+    "approved_by": "ADMIN",
+    "notes": null
+  },
+  {
+    "expense_id": 60,
+    "company": "Kathmandu Foods",
+    "month": "Oct 2026",
+    "expense_type": "Delivery",
+    "amount": 52416,
+    "approved_by": "system",
+    "notes": null
+  },
+  {
+    "expense_id": 61,
+    "company": "Pokhara Outfitters",
+    "month": "Jul 2026",
+    "expense_type": "Rent",
+    "amount": 285996,
+    "approved_by": "system",
+    "notes": "N/A"
+  },
+  {
+    "expense_id": 62,
+    "company": "Pokhara Outfitters",
+    "month": "2026-07",
+    "expense_type": "Salaries",
+    "amount": 306082,
+    "approved_by": "ADMIN",
+    "notes": "check later"
+  },
+  {
+    "expense_id": 63,
+    "company": "  Pokhara Outfitters ",
+    "month": "2026-07",
+    "expense_type": "Marketing",
+    "amount": "Rs 120,060",
+    "approved_by": "ADMIN",
+    "notes": ""
+  },
+  {
+    "expense_id": 64,
+    "company": "pokhara outfitters",
+    "month": "7/2026",
+    "expense_type": "Utilities",
+    "amount": "Rs 75,979",
+    "approved_by": "ADMIN",
+    "notes": "N/A"
+  },
+  {
+    "expense_id": 65,
+    "company": "POKHARA OUTFITTERS",
+    "month": "2026-07",
+    "expense_type": "Delivery",
+    "amount": "53174",
+    "approved_by": "system",
+    "notes": "N/A"
+  },
+  {
+    "expense_id": 66,
+    "company": "Pokhara Outfitters",
+    "month": "2026-08",
+    "expense_type": "Rent",
+    "amount": "Rs 290,099",
+    "approved_by": "ADMIN",
+    "notes": "N/A"
+  },
+  {
+    "expense_id": 67,
+    "company": "Pokhara Outfitters",
+    "month": "2026-08",
+    "expense_type": "Salaries",
+    "amount": 375686,
+    "approved_by": "system",
+    "notes": "n/a"
+  },
+  {
+    "expense_id": 68,
+    "company": "pokhara outfitters",
+    "month": "2026-08",
+    "expense_type": "Marketing",
+    "amount": 111575,
+    "approved_by": "ADMIN",
+    "notes": "n/a"
+  },
+  {
+    "expense_id": 69,
+    "company": "Pokhara Outfitters",
+    "month": "2026-08",
+    "expense_type": "Utilities",
+    "amount": 75988,
+    "approved_by": null,
+    "notes": null
+  },
+  {
+    "expense_id": 70,
+    "company": "  Pokhara Outfitters ",
+    "month": "8/2026",
+    "expense_type": "Delivery",
+    "amount": 61695,
+    "approved_by": null,
+    "notes": "N/A"
+  },
+  {
+    "expense_id": 71,
+    "company": "Pokhara Outfitters",
+    "month": "9/2026",
+    "expense_type": "Rent",
+    "amount": 222706,
+    "approved_by": null,
+    "notes": null
+  },
+  {
+    "expense_id": 72,
+    "company": "pokhara outfitters",
+    "month": "9/2026",
+    "expense_type": "Salaries",
+    "amount": 306125,
+    "approved_by": null,
+    "notes": ""
+  },
+  {
+    "expense_id": 73,
+    "company": "POKHARA OUTFITTERS",
+    "month": "2026-09",
+    "expense_type": "Marketing",
+    "amount": 143211,
+    "approved_by": "ADMIN",
+    "notes": "n/a"
+  },
+  {
+    "expense_id": "74",
+    "company": "pokhara outfitters",
+    "month": "2026-09",
+    "expense_type": "Utilities",
+    "amount": "Rs 58,728",
+    "approved_by": "system",
+    "notes": "check later"
+  },
+  {
+    "expense_id": 75,
+    "company": "Pokhara Outfitters",
+    "month": "2026-09",
+    "expense_type": "Delivery",
+    "amount": "63516",
+    "approved_by": "admin",
+    "notes": null
+  },
+  {
+    "expense_id": 76,
+    "company": "pokhara outfitters",
+    "month": "10/2026",
+    "expense_type": "Rent",
+    "amount": 285217,
+    "approved_by": null,
+    "notes": "check later"
+  },
+  {
+    "expense_id": 77,
+    "company": "Pokhara Outfitters",
+    "month": "Oct 2026",
+    "expense_type": "Salaries",
+    "amount": 338629,
+    "approved_by": "admin",
+    "notes": "N/A"
+  },
+  {
+    "expense_id": 78,
+    "company": "Pokhara Outfitters",
+    "month": "2026-10",
+    "expense_type": "Marketing",
+    "amount": 127274,
+    "approved_by": "system",
+    "notes": "N/A"
+  },
+  {
+    "expense_id": 79,
+    "company": "Pokhara Outfitters",
+    "month": "Oct 2026",
+    "expense_type": "Utilities",
+    "amount": 76890,
+    "approved_by": "ADMIN",
+    "notes": "N/A"
+  },
+  {
+    "expense_id": 80,
+    "company": "POKHARA OUTFITTERS",
+    "month": "2026-10",
+    "expense_type": "Delivery",
+    "amount": 56625,
+    "approved_by": null,
+    "notes": "check later"
+  },
+  {
+    "expense_id": 81,
+    "company": "  Annapurna Home ",
+    "month": "Jul 2026",
+    "expense_type": "Rent",
+    "amount": 119887,
+    "approved_by": "admin",
+    "notes": ""
+  },
+  {
+    "expense_id": 82,
+    "company": "annapurna home",
+    "month": "Jul 2026",
+    "expense_type": "Salaries",
+    "amount": "Rs 178,671",
+    "approved_by": null,
+    "notes": "N/A"
+  },
+  {
+    "expense_id": 83,
+    "company": "Annapurna Home",
+    "month": "2026-07",
+    "expense_type": "Marketing",
+    "amount": 64930,
+    "approved_by": null,
+    "notes": null
+  },
+  {
+    "expense_id": "84",
+    "company": "ANNAPURNA HOME",
+    "month": "7/2026",
+    "expense_type": "Utilities",
+    "amount": 31307,
+    "approved_by": "admin",
+    "notes": ""
+  },
+  {
+    "expense_id": "85",
+    "company": "Annapurna Home",
+    "month": "7/2026",
+    "expense_type": "Delivery",
+    "amount": 28324,
+    "approved_by": "system",
+    "notes": null
+  },
+  {
+    "expense_id": 86,
+    "company": "annapurna home",
+    "month": "Aug 2026",
+    "expense_type": "Rent",
+    "amount": "Rs 118,691",
+    "approved_by": "ADMIN",
+    "notes": "n/a"
+  },
+  {
+    "expense_id": 87,
+    "company": "  Annapurna Home ",
+    "month": "2026-08",
+    "expense_type": "Salaries",
+    "amount": 166826,
+    "approved_by": "system",
+    "notes": ""
+  },
+  {
+    "expense_id": 88,
+    "company": "ANNAPURNA HOME",
+    "month": "Aug 2026",
+    "expense_type": "Marketing",
+    "amount": 65750,
+    "approved_by": null,
+    "notes": ""
+  },
+  {
+    "expense_id": 89,
+    "company": "Annapurna Home",
+    "month": "8/2026",
+    "expense_type": "Utilities",
+    "amount": 34149,
+    "approved_by": "system",
+    "notes": "N/A"
+  },
+  {
+    "expense_id": "90",
+    "company": "Annapurna Home",
+    "month": "2026-08",
+    "expense_type": "Delivery",
+    "amount": 31937,
+    "approved_by": "admin",
+    "notes": "n/a"
+  },
+  {
+    "expense_id": 91,
+    "company": "  Annapurna Home ",
+    "month": "2026-09",
+    "expense_type": "Rent",
+    "amount": 118947,
+    "approved_by": null,
+    "notes": null
+  },
+  {
+    "expense_id": 92,
+    "company": "ANNAPURNA HOME",
+    "month": "2026-09",
+    "expense_type": "Salaries",
+    "amount": 169151,
+    "approved_by": null,
+    "notes": null
+  },
+  {
+    "expense_id": 93,
+    "company": "annapurna home",
+    "month": "9/2026",
+    "expense_type": "Marketing",
+    "amount": "56197",
+    "approved_by": "system",
+    "notes": "n/a"
+  },
+  {
+    "expense_id": 94.0,
+    "company": "Annapurna Home",
+    "month": "2026-09",
+    "expense_type": "Utilities",
+    "amount": "Rs 31,403",
+    "approved_by": "admin",
+    "notes": ""
+  },
+  {
+    "expense_id": 95,
+    "company": "annapurna home",
+    "month": "2026-09",
+    "expense_type": "Delivery",
+    "amount": "27314",
+    "approved_by": "admin",
+    "notes": ""
+  },
+  {
+    "expense_id": 96,
+    "company": "annapurna home",
+    "month": "10/2026",
+    "expense_type": "Rent",
+    "amount": "128070",
+    "approved_by": "ADMIN",
+    "notes": "N/A"
+  },
+  {
+    "expense_id": 97,
+    "company": "Annapurna Home",
+    "month": "Oct 2026",
+    "expense_type": "Salaries",
+    "amount": 137610,
+    "approved_by": "ADMIN",
+    "notes": "n/a"
+  },
+  {
+    "expense_id": 98,
+    "company": "annapurna home",
+    "month": "2026-10",
+    "expense_type": "Marketing",
+    "amount": 52066,
+    "approved_by": "admin",
+    "notes": "N/A"
+  },
+  {
+    "expense_id": 99,
+    "company": "ANNAPURNA HOME",
+    "month": "2026-10",
+    "expense_type": "Utilities",
+    "amount": "35987",
+    "approved_by": "system",
+    "notes": ""
+  },
+  {
+    "expense_id": 100,
+    "company": "Annapurna Home",
+    "month": "2026-10",
+    "expense_type": "Delivery",
+    "amount": 24669,
+    "approved_by": null,
+    "notes": null
+  }
+]
