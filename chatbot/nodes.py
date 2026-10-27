@@ -108,7 +108,7 @@ def run_query_node(state: ChatState):
 
 
 def answer_node(state: ChatState):
-    prompt = f"""Answer the question in a few clear sentences using only these results.
+    prompt = f"""If a profit value is negative, describe it as a loss. If every company has a negative profit, say that no company made a profit and name the one with the smallest loss.Answer the question in a few clear sentences using only these results.
 Write money as Rs with commas. Don't mention SQL.
 About the user: {state['facts']}
 Question: {state['question']}
