@@ -7,14 +7,18 @@ load_dotenv()
 SCHEMA = """
 Table workspace.gold.company_daily_sales (one row per company per day)
   order_date, company, orders, units_sold, revenue, profit, revenue_7d_avg, revenue_month_to_date
+  profit = gross profit from sales (revenue minus cost of goods). Use this table for company sales and profit.
 
-Table workspace.gold.product_performance (one row per product)
+Table workspace.gold.product_performance (one row per product, all companies combined)
   product_id, product_name, category, units_sold, revenue, profit,
   profit_margin_pct, avg_discount_pct, return_rate_pct, profit_rank_in_category
+  Use this table for questions about products and categories.
 
 Table workspace.gold.company_monthly_pnl (one row per company per month)
   month, company, revenue, cost_of_goods, gross_profit, operating_expenses,
   net_profit, net_margin_pct, result ('Profit' or 'Loss')
+  Use this table ONLY for net profit, expenses, or "loss" questions.
+  The first and last months are partial, so only use them when the user asks about that month.
 
 Companies: Himalayan Traders, Everest Electronics, Kathmandu Foods, Pokhara Outfitters, Annapurna Home
 Categories: Electronics, Clothing, Home, Food, Handicraft

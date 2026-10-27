@@ -34,6 +34,7 @@ if question:
         box.markdown("Thinking...")
         text = ""
         answer = ""
+        used_sql = ""
         inputs = {"question": question, "user_id": user_id, "session_id": st.session_state.session_id}
 
         try:
@@ -50,6 +51,8 @@ if question:
                             continue
                         if update.get("answer"):
                             answer = update["answer"]
+                        if update.get("category") == "safe" and update.get("sql"):
+                            used_sql = update["sql"]
                         if update.get("feedback"):
                             text = ""
 
@@ -59,5 +62,8 @@ if question:
             st.error(traceback.format_exc())
 
         box.markdown(answer)
+        if used_sql:
+            with st.expander("SQL used"):
+                st.code(used_sql, language="sql")
 
     st.session_state.messages.append({"role": "assistant", "content": answer})
